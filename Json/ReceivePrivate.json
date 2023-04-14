@@ -1,0 +1,19 @@
+{
+    "post_type": "message",
+    "message_type": "private",
+    "time": 1681214635,
+    "self_id": 2411613215,
+    "sub_type": "friend",
+    "sender": {
+        "age": 0,
+        "nickname": "雾都杀手",
+        "sex": "unknown",
+        "user_id": 2658326876
+    },
+    "message_id": -1415385230,
+    "user_id": 2658326876,
+    "target_id": 2411613215,
+    "message": "A",
+    "raw_message": "A",
+    "font": 0
+}
