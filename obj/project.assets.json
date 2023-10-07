@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "SixLabors.ImageSharp/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      },
       "WebSocketSharp/1.0.3-rc11": {
         "type": "package",
         "compile": {
@@ -14,6 +30,22 @@
     }
   },
   "libraries": {
+    "SixLabors.ImageSharp/3.0.1": {
+      "sha512": "o0v/J6SJwp3RFrzR29beGx0cK7xcMRgOyIuw8ZNLQyNnBhiyL/vIQKn7cfycthcWUPG3XezUjFwBWzkcUUDFbg==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.0.1.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
     "WebSocketSharp/1.0.3-rc11": {
       "sha512": "7VCF7f7zVMOvLGD8LeGS4DVXc8lOcB6kXnUMeTxigu+PMiU+6wW5Olq2gYrDU8vDRKOwFY+5RyBaLyzb8skEzA==",
       "type": "package",
@@ -30,28 +62,40 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "SixLabors.ImageSharp >= 3.0.1",
       "WebSocketSharp >= 1.0.3-rc11"
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "C:\\Users\\Dark\\.nuget\\packages\\": {},
+    "C:\\Users\\Dark\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/opt/ChatGPT/ChatGPT.csproj",
+      "projectUniqueName": "C:\\Users\\Dark\\Documents\\VsCode\\ChatGPT\\ChatGPT.csproj",
       "projectName": "ChatGPT",
-      "projectPath": "/opt/ChatGPT/ChatGPT.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/opt/ChatGPT/obj/",
+      "projectPath": "C:\\Users\\Dark\\Documents\\VsCode\\ChatGPT\\ChatGPT.csproj",
+      "packagesPath": "C:\\Users\\Dark\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dark\\Documents\\VsCode\\ChatGPT\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Users\\Dark\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Dark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dark\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,6 +114,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
           "WebSocketSharp": {
             "target": "Package",
             "version": "[1.0.3-rc11, )"
@@ -91,7 +139,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -100,7 +148,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'WebSocketSharp 1.0.3-rc11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net7.0”还原包“WebSocketSharp 1.0.3-rc11”。此包可能与项目不完全兼容。",
       "libraryId": "WebSocketSharp",
       "targetGraphs": [
         "net7.0"

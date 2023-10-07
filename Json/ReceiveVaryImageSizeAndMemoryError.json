@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": null,
+    "message": "Uploaded image must be a PNG and less than 4 MB.",
+    "param": null,
+    "type": "invalid_request_error"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "post_type": "message",
+    "message_type": "group",
+    "time": 1681990789,
+    "self_id": 2411613215,
+    "sub_type": "normal",
+    "group_id": 659885902,
+    "message_seq": 9010,
+    "user_id": 2658326876,
+    "sender": {
+        "age": 0,
+        "area": "",
+        "card": "",
+        "level": "",
+        "nickname": "雾都杀手",
+        "role": "owner",
+        "sex": "unknown",
+        "title": "",
+        "user_id": 2658326876
+    },
+    "message_id": -1751380778,
+    "anonymous": null,
+    "font": 0,
+    "message": "[CQ:at,qq=2411613215] Vary [CQ:image,file=3b41a7d61fc8469fee80a334ab10df86.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2658326876/659885902-2735625752-3B41A7D61FC8469FEE80A334AB10DF86/0?term=2\u0026amp;is_origin=0]",
+    "raw_message": "[CQ:at,qq=2411613215] Vary [CQ:image,file=3b41a7d61fc8469fee80a334ab10df86.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/2658326876/659885902-2735625752-3B41A7D61FC8469FEE80A334AB10DF86/0?term=2\u0026amp;is_origin=0]"
+}

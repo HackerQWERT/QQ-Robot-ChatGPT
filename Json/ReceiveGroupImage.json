@@ -1,0 +1,26 @@
+{
+    "post_type": "message",
+    "message_type": "group",
+    "time": 1681829441,
+    "self_id": 2411613215,
+    "sub_type": "normal",
+    "message": "[CQ:at,qq=2411613215] \r\n",
+    "message_seq": 8882,
+    "user_id": 2658326876,
+    "message_id": 520085614,
+    "anonymous": null,
+    "font": 0,
+    "group_id": 659885902,
+    "raw_message": "[CQ:at,qq=2411613215] \r\n",
+    "sender": {
+        "age": 0,
+        "area": "",
+        "card": "",
+        "level": "",
+        "nickname": "雾都杀手",
+        "role": "owner",
+        "sex": "unknown",
+        "title": "",
+        "user_id": 2658326876
+    }
+}

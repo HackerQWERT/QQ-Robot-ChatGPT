@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": null,
+    "message": "Invalid input image - format must be in ['RGB', 'RGBA'], got P.",
+    "param": null,
+    "type": "invalid_request_error"
+  }
+}

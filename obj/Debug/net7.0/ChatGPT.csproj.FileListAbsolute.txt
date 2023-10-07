@@ -15,3 +15,4 @@
 /opt/ChatGPT/obj/Debug/net7.0/ChatGPT.pdb
 /opt/ChatGPT/obj/Debug/net7.0/ChatGPT.genruntimeconfig.cache
 /opt/ChatGPT/obj/Debug/net7.0/ref/ChatGPT.dll
+/opt/ChatGPT/bin/Debug/net7.0/SixLabors.ImageSharp.dll

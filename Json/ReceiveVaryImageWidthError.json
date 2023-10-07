@@ -1,0 +1,8 @@
+{
+  "error": {
+    "code": null,
+    "message": "Invalid input image - expected an image with equal width and height, got 2400x1080 instead.",
+    "param": null,
+    "type": "invalid_request_error"
+  }
+}

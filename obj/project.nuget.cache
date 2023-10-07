@@ -1,17 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "RR3JuZFEiUhEHc9/RBPit/te3PA1G6jwsKu7HJPgWlOBwGRlcRz4mUPp5MB4Z4XHPIpJKcG3K65tRupE4gUI5g==",
+  "dgSpecHash": "EoOY5ibQhiDF/osJZGo53uGy23zltKI5Xi/QRIBO4+3fhaaM66xi6pPdjmPVuUE+2qD3g7dQ75ljTWXRPjEECQ==",
   "success": true,
-  "projectFilePath": "/opt/ChatGPT/ChatGPT.csproj",
+  "projectFilePath": "C:\\Users\\Dark\\Documents\\VsCode\\ChatGPT\\ChatGPT.csproj",
   "expectedPackageFiles": [
-    "/root/.nuget/packages/websocketsharp/1.0.3-rc11/websocketsharp.1.0.3-rc11.nupkg.sha512"
+    "C:\\Users\\Dark\\.nuget\\packages\\sixlabors.imagesharp\\3.0.1\\sixlabors.imagesharp.3.0.1.nupkg.sha512",
+    "C:\\Users\\Dark\\.nuget\\packages\\websocketsharp\\1.0.3-rc11\\websocketsharp.1.0.3-rc11.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'WebSocketSharp 1.0.3-rc11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net7.0”还原包“WebSocketSharp 1.0.3-rc11”。此包可能与项目不完全兼容。",
       "libraryId": "WebSocketSharp",
       "targetGraphs": [
         "net7.0"
